@@ -81,3 +81,80 @@ Extend monitoring with Alertmanager
 
 Developed & maintained by Ahmed Masmoudi
 🔗 GitHub: ahmed22-hub
+<img width="4580" height="1790" alt="Flowchart" src="https://github.com/user-attachments/assets/022ccc57-7418-4984-9173-395aacde81b3" />
+1. 📂 Project Structure
+
+Show how your repo is organized so contributors can navigate quickly:
+
+react-django/
+│── frontend/              # React app
+│── backend/               # Django app
+│── docker-compose.yml
+│── Dockerfile.frontend
+│── Dockerfile.backend
+│── ansible-setup/         # Ansible playbooks
+│── jenkins/               # Jenkins pipeline (Jenkinsfile)
+│── monitoring/            # Prometheus & Grafana configs
+│── k8s/                   # (Optional) Kubernetes manifests
+│── docs/                  # Documentation & guides
+│── README.md
+
+2. 🛠️ Prerequisites
+
+List tools required before running the project (helpful for teammates or recruiters):
+
+Docker & Docker Compose
+
+Node.js & npm (for local frontend dev)
+
+Python 3.x & pip (for local backend dev)
+
+Jenkins (for CI/CD)
+
+Ansible (for deployment)
+
+SonarQube (for code analysis)
+
+3. 🧪 Testing
+
+Explain how tests are run for both frontend and backend. Example:
+
+# Backend tests
+cd backend
+python manage.py test
+
+# Frontend tests
+cd frontend
+npm test
+
+
+5. 📦 Deployment Environments
+
+Add a small table showing your dev/prod setup (from your guide file):
+
+VM	Purpose	Specs	IP
+jenkins-vm	CI/CD (Jenkins)	2 vCPU, 4GB RAM	192.168.40.128
+dev-vm	Development deployment	1 vCPU, 2GB RAM	192.168.40.129
+prod-vm	Production deployment	1 vCPU, 2GB RAM	192.168.40.130
+6. 📜 License
+
+If you want others to reuse it:
+
+MIT (open collaboration)
+
+GPL (strong copyleft)
+
+Or a custom license (if private)
+
+7. 🙌 Contribution Guide
+
+Encourage open-source collaboration:
+
+## 🤝 Contribution
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature-xyz`)
+3. Commit changes (`git commit -m 'Add feature xyz'`)
+4. Push to branch (`git push origin feature-xyz`)
+5. Open a Pull Request
+
+
