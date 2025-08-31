@@ -46,6 +46,7 @@ Backend → http://localhost:8000
 
 SonarQube → http://localhost:9000
  (admin/admin)
+ <img width="4580" height="1790" alt="Flowchart" src="https://github.com/user-attachments/assets/022ccc57-7418-4984-9173-395aacde81b3" />
 
 ⚙️ CI/CD Pipeline (Jenkins)
 
@@ -60,14 +61,20 @@ Docker Build & Push → Publish images to Docker Hub
 Ansible Deployment → Auto-deploy to dev/prod VM
 
 Notifications → Slack/Email on build status
+<img width="1358" height="697" alt="pipline step with blue ocean plugin " src="https://github.com/user-attachments/assets/66b109c6-e5bf-4e70-94ad-5c4cd4ce0a73" />
+
 
 📊 Monitoring & Quality
 
 Prometheus → Collects system & app metrics
+<img width="1363" height="683" alt="prothemus target after deploiments jenkins " src="https://github.com/user-attachments/assets/2e2aad1f-3e4c-4e50-83a3-24decf9f3732" />
+
 
 Grafana → Dashboards for CPU, RAM, Disk, Network
+<img width="1363" height="637" alt="graph grafana apres deploiment" src="https://github.com/user-attachments/assets/6575c8dd-4f4b-46f6-82e0-332956fef6e3" />
 
 SonarQube → Code analysis (bugs, vulnerabilities, smells)
+<img width="1351" height="687" alt="sonarqube " src="https://github.com/user-attachments/assets/0248e82f-17eb-4ad6-bd75-68d5da87eafe" />
 
 🌱 Future Extensions
 
@@ -81,7 +88,7 @@ Extend monitoring with Alertmanager
 
 Developed & maintained by Ahmed Masmoudi
 🔗 GitHub: ahmed22-hub
-<img width="4580" height="1790" alt="Flowchart" src="https://github.com/user-attachments/assets/022ccc57-7418-4984-9173-395aacde81b3" />
+
 1. 📂 Project Structure
 
 Show how your repo is organized so contributors can navigate quickly:
@@ -136,6 +143,9 @@ VM	Purpose	Specs	IP
 jenkins-vm	CI/CD (Jenkins)	2 vCPU, 4GB RAM	192.168.40.128
 dev-vm	Development deployment	1 vCPU, 2GB RAM	192.168.40.129
 prod-vm	Production deployment	1 vCPU, 2GB RAM	192.168.40.130
+<img width="1366" height="704" alt="dev_vm" src="https://github.com/user-attachments/assets/b20def7d-7db7-435f-856f-7dafac83e6e0" />
+<img width="1360" height="699" alt="prod_machine" src="https://github.com/user-attachments/assets/34054ce1-a750-499c-95b3-66c7bc5294e9" />
+
 6. 📜 License
 
 If you want others to reuse it:
@@ -156,5 +166,6 @@ Encourage open-source collaboration:
 3. Commit changes (`git commit -m 'Add feature xyz'`)
 4. Push to branch (`git push origin feature-xyz`)
 5. Open a Pull Request
+
 
 
